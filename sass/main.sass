@@ -1,0 +1,19 @@
+$font-stack:    Helvetica, sans-serif
+$primary-color: #333
+
+@mixin btn-style()
+  color: white
+  background-color: purple
+  border: 1px solid black
+  border-radius: 10%
+
+
+@mixin btn-backtroup
+
+body
+  font: 100% $font-stack
+  color: $primary-color
+
+
+.btn
+  @include btn-style()
